@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.round {
+    width: 15%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: relative;
+    background-color:rgb(48,49,52);
+    color:white;
+    text-align: center;
+}
+
+#search {
+    margin: 0 auto;
+    display: block;
+}
+
+#search2 {
+    margin: 0 auto;
+    display: block;
+}
+
+#addStuff {
+    margin: 0 auto;
+    display: block;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type=submit] {
+    color:white;
+    background-color: #C3D7CC;
+    border-radius: 8px; border-style: none; 
+    cursor: pointer; display: inline-block; 
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif; 
+    font-size: 16px; font-weight: 600; letter-spacing: normal; 
+    line-height: 1.5; outline: none; overflow: hidden; padding: 13px 20px; 
+    position: relative; 
+    text-align: center; 
+    text-decoration: none;  
+    transition: all .3s; user-select: none;  
+}
+
+input[type=submit]:hover{
+    background-color: #1e8449; 
+    opacity: 1; 
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+

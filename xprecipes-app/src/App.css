@@ -1,0 +1,20 @@
+@import './recipeslist.css';
+@import './apptitle.css';
+@import './ingredients.css';
+@import './savedrecipes.css';
+
+
+
+html{
+  background-color:rgb(32,33,36);
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
